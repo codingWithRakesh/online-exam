@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="RAJEEV GANDHI COMPUTER SAKSHARTA ABHIYAN All Student Exam Webside">
+	<meta name="keywords" content="RAJEEV GANDHI COMPUTER SAKSHARTA ABHIYAN, RGCSA, RGCSA EXAM 2023">
+	<meta name="robot" content="index, follow">
+	<link rel="canonical" href="testing_exam.html">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<title>Rajeev Gandhi Computer Saksharta Abhiyan</title>
+</head>
+
+<body>
+
+	<!-- -----------------------alert_fullscreen------------------------- -->
+	<div class="popup_box" id="popup_boxId">
+		<h1>Warning</h1>
+		<label>FullScreen the Page</label>
+		<div class="btns">
+			<button id="btnIdWarning" onclick="clickWarning()" class="btn2">Ok</button>
+		</div>
+	</div>
+
+	<div class="popup" id="popup_Id">
+		<p>Exam Time no Cheating</p>
+		<div class="btnsClass">
+			<button id="btnId" class="btnClass" onclick="hide()">Ok</button>
+		</div>
+	</div>
+
+	<div class="start_btn">
+		<div class="student_name">
+			<label>Candidate Name - </label><br>
+			<input type="text" oninput="fun1()" id="nameId" name=""><br>
+		</div>
+		<button>Start Exam</button>
+	</div>
+
+
+	<div class="info_box">
+		<div class="info_title">
+			<span>Some Rules of the Exam</span>
+		</div>
+		<div class="info_list">
+			<div class="info">1. You will have only <span>30 seconds</span> per each question.</div>
+			<div class="info">2. Once you select your answer, you can't reselect.</div>
+			<div class="info">3. You can't select any option once time goes off.</div>
+			<div class="info">4. You can't exit from the Exam while you're playing.</div>
+			<div class="info">5. You'll get points on the basis of your correct answers.</div>
+		</div>
+		<div class="buttons">
+			<button class="quit">Exit Exam</button>
+			<button class="restart">Contineu</button>
+		</div>
+	</div>
+
+
+
+	<div class="quiz_box">
+		<header>
+			<div class="title">R.G.C.S.A Exam Bon Birsingha</div>
+			<div class="timer">
+				<div class="time_text">Time Left</div>
+				<div class="timer_sec">30</div>
+			</div>
+			<div class="time_line"></div>
+		</header>
+		<section>
+			<div class="que_text">
+				<!-- <span>What does HTML stand for?</span> -->
+			</div>
+			<div class="option_list">
+				<!-- <div class="option">
+					<span>Hyper Text Preprocessor</span>
+					<div class="icon tick"><i class="fa fa-check"></i></div>
+				</div>
+				<div class="option">
+					<span>Hyper Text Markup Language</span>
+					<div class="icon cross"><i class="fa fa-times"></i></div>
+				</div>
+				<div class="option">
+					<span>Hyper Text Multiple Language</span>
+				</div>
+				<div class="option">
+					<span>Hyper Text Multi Language</span>
+				</div> -->
+			</div>
+		</section>
+
+		<footer>
+			<div class="total_que">
+				<!-- <span>
+					<p>2</p>
+					of
+					<p>5</p>
+					Questions
+				</span> -->
+			</div>
+			<button class="next_btn">Next Question</button>
+		</footer>
+	</div>
+
+
+
+	<div class="result_box">
+
+		<div class="complete_text">
+			You've completed the Exam
+		</div>
+		<div class="score_text">
+			<!-- <span>
+				and sorry, You got only 
+				<p>2</p> 
+				out of 
+				<p>5</p>
+			</span> -->
+		</div>
+		<div class="buttons">
+			<button class="restart" id="printId">Print</button>
+			<button class="quit" id="quiteExam">Quit exam</button>
+		</div>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

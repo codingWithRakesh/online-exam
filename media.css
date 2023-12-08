@@ -1,0 +1,28 @@
+@media screen and (max-width: 500px){
+	body{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.info_box,.quiz_box{
+		width: 90vw;
+	}
+	.info_box .info_title{
+		width: initial;
+	}
+	.quiz_box header{
+		padding: 0 15px;
+	}
+	.quiz_box header .title{
+		font-size: 18px;
+	}
+	.quiz_box section .que_text{
+		font-size: 20px;
+	}
+	.quiz_box footer{
+		width: initial;
+	}
+	.result_box{
+		width: 80vw;
+	}
+}
